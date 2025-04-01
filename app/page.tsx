@@ -10,19 +10,19 @@ export default function Home() {
           <Image src={'/ui/redHeart.png'} alt='heart' width={50} height={50}/>
           <div className="text-center">Pregnancy Navigator</div>
         </Link>
-        <Link href={'/'} className="flex flex-col items-center gap-4">
+        <Link href={'/health-risk'} className="flex flex-col items-center gap-4">
           <Image src={'/ui/blueHeart.png'} alt='heart' width={50} height={50}/>
           <div className="text-center">Health Risk Detector</div>
         </Link>
-        <Link href={'/'} className="flex flex-col items-center gap-4">
+        <Link href={'/symtom-checker'} className="flex flex-col items-center gap-4">
           <Image src={'/ui/greenHeart.png'} alt='heart' width={50} height={50}/>
           <div className="text-center">Symtom Checker</div>
         </Link>
-        <Link href={'/'} className="flex flex-col items-center gap-4">
+        <Link href={'/birth-planning'} className="flex flex-col items-center gap-4">
           <Image src={'/ui/orangeHeart.png'} alt='heart' width={50} height={50}/>
           <div className="text-center">Birth Planning Assitant</div>
         </Link>
-        <Link href={'/'} className="flex flex-col items-center gap-4">
+        <Link href={'/community-connector'} className="flex flex-col items-center gap-4">
           <Image src={'/ui/purpleHeart.png'} alt='heart' width={50} height={50}/>
           <div className="text-center">Community Connector</div>
         </Link>
